@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from "react";
 import Link from "next/link";
 import Head from "next/head";
@@ -32,17 +31,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-// Sample functional react components.
-
-// import React from 'react'
-
-// export default function index() {
-//   return (
-//     <div>index</div>
-//   )
-// }
-
-export default function Example() {
+export default function Layout({ children }) {
   return (
     <div className="h-screen">
       <div className="h-0.5/6">
@@ -66,25 +55,7 @@ export default function Example() {
                     </Disclosure.Button>
                   </div>
                   <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                    <div className="hidden sm:block sm:ml-6">
-                      {/* <div className="flex space-x-4">
-                      {navigation.map((item) => (
-                        <a
-                          key={item.name}
-                          href={item.href}
-                          className={classNames(
-                            item.current
-                              ? "bg-gray-900 text-white"
-                              : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                            "px-3 py-2 rounded-md text-sm font-medium"
-                          )}
-                          aria-current={item.current ? "page" : undefined}
-                        >
-                          {item.name}
-                        </a>
-                      ))}
-                    </div> */}
-                    </div>
+                    <div className="hidden sm:block sm:ml-6"></div>
                   </div>
 
                   <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -329,32 +300,6 @@ export default function Example() {
                           </span>
                         </a>
                       </Link>
-                      {/* <form action="/logout">
-                          <button
-                            type="submit"
-                            class="flex items-center w-full px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              class="w-5 h-5 opacity-75"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              stroke-width="2"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
-                              />
-                            </svg>
-
-                            <span class="ml-3 text-sm font-medium">
-                              {" "}
-                              Logout{" "}
-                            </span>
-                          </button>
-                        </form> */}
                     </nav>
                   </details>
                 </nav>
@@ -381,7 +326,9 @@ export default function Example() {
                 </a>
               </div>
             </div>
-            <div className="border-2 border-dashed border-gray-300 rounded-lg h-full w-3/4"></div>
+            <div className="border-2 border-dashed border-gray-300 rounded-lg h-full w-3/4">
+              {children}
+            </div>
           </div>
         </div>
       </main>
