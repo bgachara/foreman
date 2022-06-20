@@ -333,11 +333,11 @@ export default function Layout({ children }) {
                   href=""
                   className="flex items-center p-4 bg-white hover:bg-gray-50 shrink-0"
                 >
-                  <img
+                  {/* <img
                     className="object-cover w-10 h-10 rounded-full"
                     src=".../styles/images/pic-unsplash.jpg"
                     alt="Sbd"
-                  />
+                  /> */}
 
                   <div className="ml-1.5">
                     <p className="text-xs">
