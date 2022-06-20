@@ -66,7 +66,7 @@ export default function projectsetup() {
               <div className="grid gap-3 mb-3 mx-4 mt-4 lg:grid-cols-3">
                 <div className="ml-2 mt-2">
                   <label
-                    for="first_name"
+                    htmlFor="first_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Project name
@@ -81,7 +81,7 @@ export default function projectsetup() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="last_name"
+                    htmlFor="last_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Location
@@ -96,7 +96,7 @@ export default function projectsetup() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="company"
+                    htmlFor="company"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Company
@@ -111,7 +111,7 @@ export default function projectsetup() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="first_name"
+                    htmlFor="first_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Starting Cost
@@ -126,7 +126,7 @@ export default function projectsetup() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="last_name"
+                    htmlFor="last_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Final Estimate
@@ -141,7 +141,7 @@ export default function projectsetup() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="company"
+                    htmlFor="company"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Target Margin
@@ -156,7 +156,7 @@ export default function projectsetup() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="phone"
+                    htmlFor="phone"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Start Date
@@ -172,7 +172,7 @@ export default function projectsetup() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="website"
+                    htmlFor="website"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     End Date
@@ -187,7 +187,7 @@ export default function projectsetup() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="visitors"
+                    htmlFor="visitors"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Estimated Duration
@@ -203,7 +203,7 @@ export default function projectsetup() {
                 </div>
                 <div className="m-2">
                   <label
-                    for="email"
+                    htmlFor="email"
                     className="block mb-2 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Project Type
@@ -218,7 +218,7 @@ export default function projectsetup() {
                 </div>
                 <div className="m-2">
                   <label
-                    for="email"
+                    htmlFor="email"
                     className="block mb-2 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Project Manager
@@ -233,7 +233,7 @@ export default function projectsetup() {
                 </div>
                 <div className="m-2">
                   <label
-                    for="email"
+                    htmlFor="email"
                     className="block mb-2 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Manager Contacts
@@ -289,7 +289,7 @@ export default function projectsetup() {
                   />
                 </div>
                 <label
-                  for="remember"
+                  htmlFor="remember"
                   className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-400"
                 >
                   I have confirmed the details above{" "}

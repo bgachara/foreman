@@ -24,7 +24,7 @@ export default function constructionStock() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="relative">
-                    <label className="sr-only" for="search">
+                    <label className="sr-only" htmlFor="search">
                       {" "}
                       Search{" "}
                     </label>
@@ -47,11 +47,11 @@ export default function constructionStock() {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        stroke-width="2"
+                        strokeWidth="2"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                         />
                       </svg>
@@ -66,7 +66,7 @@ export default function constructionStock() {
               <div className="grid gap-3 mb-3 mx-4 mt-4 lg:grid-cols-3">
                 <div className="ml-2 mt-2">
                   <label
-                    for="first_name"
+                    htmlFor="first_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     First Name
@@ -81,7 +81,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="last_name"
+                    htmlFor="last_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Last Name
@@ -96,7 +96,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="company"
+                    htmlFor="company"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Type
@@ -111,7 +111,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="first_name"
+                    htmlFor="first_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     ID
@@ -126,7 +126,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="last_name"
+                    htmlFor="last_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Contacts
@@ -141,7 +141,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="company"
+                    htmlFor="company"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Nature of Work
@@ -156,7 +156,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="phone"
+                    htmlFor="phone"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Start Date
@@ -172,7 +172,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="website"
+                    htmlFor="website"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     End Date
@@ -187,7 +187,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="visitors"
+                    htmlFor="visitors"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Estimated Duration
@@ -203,7 +203,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="password"
+                    htmlFor="password"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Daily Pay
@@ -218,7 +218,7 @@ export default function constructionStock() {
                 </div>
                 <div className="ml-2 mt-2">
                   <label
-                    for="password"
+                    htmlFor="password"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Miscellanous
@@ -259,7 +259,7 @@ export default function constructionStock() {
                   />
                 </div>
                 <label
-                  for="remember"
+                  htmlFor="remember"
                   className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-400"
                 >
                   I have confirmed the details above{" "}
