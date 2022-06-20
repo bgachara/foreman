@@ -11,7 +11,7 @@ export default function capture() {
         <Head>
           <title>Project setup</title>
           <link rel="icon" href="/favicon.ico" />
-          <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+          {/* <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> */}
         </Head>
         <header className="bg-slate-300">
           <div className="max-w-screen-xl px-1 py-2 mx-auto sm:px-6 lg:px-8">

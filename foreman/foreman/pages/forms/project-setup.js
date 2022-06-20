@@ -24,7 +24,7 @@ export default function projectsetup() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="relative">
-                    <label className="sr-only" for="search">
+                    <label className="sr-only" htmlFor="search">
                       {" "}
                       Search{" "}
                     </label>
@@ -47,11 +47,11 @@ export default function projectsetup() {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        stroke-width="2"
+                        strokeWidth="2"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                         />
                       </svg>
