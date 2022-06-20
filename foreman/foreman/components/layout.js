@@ -177,11 +177,25 @@ export default function Layout({ children }) {
                       <CogIcon className="w-5 h-5 opacity-75"> </CogIcon>
                       <span className="ml-3 text-sm font-medium">
                         {" "}
-                        Settings{" "}
+                        Project Setup{" "}
                       </span>
                     </a>
                   </Link>
-                  <details className="group">
+
+                  <Link href="/forms/capture">
+                    <a
+                      className="flex items-center px-4 py-2 text-gray-700
+                      bg-gray-100 rounded-lg"
+                    >
+                      <DocumentAddIcon className="w-5 h-5 opacity-75"></DocumentAddIcon>
+
+                      <span className="ml-3 text-sm font-medium">
+                        {" "}
+                        Capture{" "}
+                      </span>
+                    </a>
+                  </Link>
+                  {/* <details className="group">
                     <summary className="flex items-center px-4 py-2 text-gray-500 rounded-lg cursor-pointer hover:bg-gray-100 hover:text-gray-700">
                       <DocumentAddIcon className="w-5 h-5 opacity-75"></DocumentAddIcon>
                       <span className="ml-3 text-sm font-medium">
@@ -224,8 +238,17 @@ export default function Layout({ children }) {
                           </span>
                         </a>
                       </Link>
+                      <Link href="/sections/labour">
+                        <a className="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700">
+                          <CashIcon className="w-5 h-5 opacity-75"></CashIcon>
+                          <span className="ml-3 text-sm font-medium">
+                            {" "}
+                            Labour{" "}
+                          </span>
+                        </a>
+                      </Link>
                     </nav>
-                  </details>
+                  </details> */}
                   <Link href="/sections/stock-dispatch">
                     <a className="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700">
                       <ClipboardListIcon className="w-5 h-5 opacity-75"></ClipboardListIcon>
@@ -326,7 +349,7 @@ export default function Layout({ children }) {
                 </a>
               </div>
             </div>
-            <div className="border-2 border-dashed border-gray-300 rounded-lg h-full w-3/4">
+            <div className="border-2 border-dashed border-gray-300 rounded-lg h-full w-3/4 bg-white">
               {children}
             </div>
           </div>
