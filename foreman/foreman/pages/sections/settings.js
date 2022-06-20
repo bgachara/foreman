@@ -25,7 +25,7 @@ export default function settings() {
               </div>
               <div className="flex items-center gap-4">
                 <div className="relative">
-                  <label className="sr-only" for="search">
+                  <label className="sr-only" htmlFor="search">
                     {" "}
                     Search{" "}
                   </label>
