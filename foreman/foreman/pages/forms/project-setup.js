@@ -11,39 +11,39 @@ export default function projectsetup() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-          <header class="bg-slate-300">
-            <div class="max-w-screen-xl px-1 py-2 mx-auto sm:px-6 lg:px-8">
-              <div class="flex items-center justify-between gap-4">
+          <header className="bg-slate-300">
+            <div className="max-w-screen-xl px-1 py-2 mx-auto sm:px-6 lg:px-8">
+              <div className="flex items-center justify-between gap-4">
                 <div>
-                  <h1 class="text-xl font-semibold text-gray-700 sm:text-xl">
+                  <h1 className="text-xl font-semibold text-gray-700 sm:text-xl">
                     Project Setup
                   </h1>
-                  <p class="mt-1 text-sm text-gray-500">
+                  <p className="mt-1 text-sm text-gray-500">
                     Start creating a project.
                   </p>
                 </div>
-                <div class="flex items-center gap-4">
-                  <div class="relative">
-                    <label class="sr-only" for="search">
+                <div className="flex items-center gap-4">
+                  <div className="relative">
+                    <label className="sr-only" for="search">
                       {" "}
                       Search{" "}
                     </label>
 
                     <input
-                      class="w-full h-10 pl-4 pr-10 text-sm bg-white border-none rounded-full shadow-sm sm:w-56"
+                      className="w-full h-10 pl-4 pr-10 text-sm bg-white border-none rounded-full shadow-sm sm:w-56"
                       id="search"
                       type="search"
                       placeholder="Search..."
                     />
 
                     <button
-                      class="absolute p-2 text-gray-600 transition -translate-y-1/2 rounded-full hover:text-gray-700 bg-gray-50 top-1/2 right-1"
+                      className="absolute p-2 text-gray-600 transition -translate-y-1/2 rounded-full hover:text-gray-700 bg-gray-50 top-1/2 right-1"
                       type="button"
                       aria-label="Submit Search"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-4 h-4"
+                        className="w-4 h-4"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -63,18 +63,18 @@ export default function projectsetup() {
           </header>
           <div>
             <form>
-              <div class="grid gap-3 mb-3 mx-4 mt-4 lg:grid-cols-3">
+              <div className="grid gap-3 mb-3 mx-4 mt-4 lg:grid-cols-3">
                 <div className="ml-2 mt-2">
                   <label
                     for="first_name"
-                    class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Project name
                   </label>
                   <input
                     type="text"
                     id="first_name"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-slate-900 focus:border-slate-900 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-slate-500 dark:focus:border-slate-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-slate-900 focus:border-slate-900 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-slate-500 dark:focus:border-slate-500"
                     placeholder="Anniversary"
                     required=""
                   />
@@ -82,14 +82,14 @@ export default function projectsetup() {
                 <div className="ml-2 mt-2">
                   <label
                     for="last_name"
-                    class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Location
                   </label>
                   <input
                     type="text"
                     id="last_name"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="CBD"
                     required=""
                   />
@@ -97,14 +97,14 @@ export default function projectsetup() {
                 <div className="ml-2 mt-2">
                   <label
                     for="company"
-                    class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Company
                   </label>
                   <input
                     type="text"
                     id="company"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="SEB estates"
                     required=""
                   />
@@ -112,14 +112,14 @@ export default function projectsetup() {
                 <div className="ml-2 mt-2">
                   <label
                     for="first_name"
-                    class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Starting Cost
                   </label>
                   <input
                     type="text"
                     id="first_name"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="1,000,000"
                     required=""
                   />
@@ -127,14 +127,14 @@ export default function projectsetup() {
                 <div className="ml-2 mt-2">
                   <label
                     for="last_name"
-                    class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Final Estimate
                   </label>
                   <input
                     type="text"
                     id="last_name"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="12,000,000"
                     required=""
                   />
@@ -142,14 +142,14 @@ export default function projectsetup() {
                 <div className="ml-2 mt-2">
                   <label
                     for="company"
-                    class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Target Margin
                   </label>
                   <input
                     type="text"
                     id="company"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="40%"
                     required=""
                   />
@@ -157,14 +157,14 @@ export default function projectsetup() {
                 <div className="ml-2 mt-2">
                   <label
                     for="phone"
-                    class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Start Date
                   </label>
                   <input
                     type="date"
                     id="phone"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="01/12/2022"
                     pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                     required=""
@@ -173,14 +173,14 @@ export default function projectsetup() {
                 <div className="ml-2 mt-2">
                   <label
                     for="website"
-                    class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     End Date
                   </label>
                   <input
                     type="date"
                     id="website"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="09/12/2022"
                     required=""
                   />
@@ -188,114 +188,114 @@ export default function projectsetup() {
                 <div className="ml-2 mt-2">
                   <label
                     for="visitors"
-                    class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Estimated Duration
                   </label>
                   <input
                     type="number"
                     id="visitors"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder=""
                     required=""
                     disabled
                   />
                 </div>
-                <div class="m-2">
+                <div className="m-2">
                   <label
                     for="email"
-                    class="block mb-2 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-2 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Project Type
                   </label>
                   <input
                     type="name"
                     id="name"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    classNameName="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Apartments / Mixed-use"
                     required=""
                   />
                 </div>
-                <div class="m-2">
+                <div className="m-2">
                   <label
                     for="email"
-                    class="block mb-2 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-2 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Project Manager
                   </label>
                   <input
                     type="name"
                     id="name"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Doe John"
                     required=""
                   />
                 </div>
-                <div class="m-2">
+                <div className="m-2">
                   <label
                     for="email"
-                    class="block mb-2 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    className="block mb-2 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Manager Contacts
                   </label>
                   <input
                     type="phone"
                     id="contacts"
-                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="0789 909 909"
                     required=""
                   />
                 </div>
               </div>
 
-              {/* <div class="m-2">
+              {/* <div classNameName="m-2">
                 <label
                   for="password"
-                  class="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  classNameName="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                 >
                   Miscellanous
                 </label>
                 <input
                   type="text"
                   id="misc"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  classNameName="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="•••••••••"
                   required=""
                 />
               </div> */}
-              {/* <div class="m-2">
+              {/* <div classNameName="m-2">
                 <label
                   for="confirm_password"
-                  class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  classNameName="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                 >
                   Confirm password
                 </label>
                 <input
                   type="password"
                   id="confirm_password"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  classNameName="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="•••••••••"
                   required=""
                 />
               </div> */}
-              <div class="flex items-start mb-6 ml-7 mt-4">
-                <div class="flex items-center h-5">
+              <div className="flex items-start mb-6 ml-7 mt-4">
+                <div className="flex items-center h-5">
                   <input
                     id="remember"
                     type="checkbox"
                     value=""
-                    class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                    className="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
                     required=""
                   />
                 </div>
                 <label
                   for="remember"
-                  class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                  className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-400"
                 >
                   I have confirmed the details above{" "}
                   {/* <a
                     href="#"
-                    class="text-blue-600 hover:underline dark:text-blue-500"
+                    classNameName="text-blue-600 hover:underline dark:text-blue-500"
                   >
                     terms and conditions
                   </a> */}
@@ -303,7 +303,7 @@ export default function projectsetup() {
               </div>
               <button
                 type="submit"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm ml-7 w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm ml-7 w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Submit
               </button>
