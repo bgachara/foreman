@@ -18,10 +18,10 @@ export default function capture() {
             <div className="flex items-center justify-between gap-4">
               <div>
                 <h1 className="text-xl font-semibold text-gray-700 sm:text-xl">
-                  Project Setup
+                  Store Capture
                 </h1>
                 <p className="mt-1 text-sm text-gray-500">
-                  Start creating a project.
+                  Capture new stock, expenses and labour.
                 </p>
               </div>
               <div className="flex items-center gap-4">

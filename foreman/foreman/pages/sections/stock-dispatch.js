@@ -11,7 +11,7 @@ export default function stockDispatch() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-          <header className="bg-gray-50">
+          <header className="bg-slate-300">
             <div className="max-w-screen-xl px-1 py-2 mx-auto sm:px-6 lg:px-8">
               <div className="flex items-center justify-between gap-4">
                 <div>
