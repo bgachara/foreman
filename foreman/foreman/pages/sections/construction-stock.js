@@ -11,7 +11,7 @@ export default function constructionStock() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-          <header className="bg-gray-50">
+          <header className="bg-slate-300">
             <div className="max-w-screen-xl px-1 py-2 mx-auto sm:px-6 lg:px-8">
               <div className="flex items-center justify-between gap-4">
                 <div>
@@ -61,6 +61,224 @@ export default function constructionStock() {
               </div>
             </div>
           </header>
+          <div>
+            <form>
+              <div className="grid gap-3 mb-3 mx-4 mt-4 lg:grid-cols-3">
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="first_name"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    First Name
+                  </label>
+                  <input
+                    type="text"
+                    id="first_name"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-slate-900 focus:border-slate-900 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-slate-500 dark:focus:border-slate-500"
+                    placeholder="Anniversary"
+                    required=""
+                  />
+                </div>
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="last_name"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    Last Name
+                  </label>
+                  <input
+                    type="text"
+                    id="last_name"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="CBD"
+                    required=""
+                  />
+                </div>
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="company"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    Type
+                  </label>
+                  <input
+                    type="text"
+                    id="company"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="casual / contract"
+                    required=""
+                  />
+                </div>
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="first_name"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    ID
+                  </label>
+                  <input
+                    type="text"
+                    id="first_name"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="12345678"
+                    required=""
+                  />
+                </div>
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="last_name"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    Contacts
+                  </label>
+                  <input
+                    type="phone"
+                    id="last_name"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="0720 000 000"
+                    required=""
+                  />
+                </div>
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="company"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    Nature of Work
+                  </label>
+                  <input
+                    type="text"
+                    id="company"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Plumbing / Mason"
+                    required=""
+                  />
+                </div>
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="phone"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    Start Date
+                  </label>
+                  <input
+                    type="date"
+                    id="phone"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="01/12/2022"
+                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                    required=""
+                  />
+                </div>
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="website"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    End Date
+                  </label>
+                  <input
+                    type="date"
+                    id="website"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="09/12/2022"
+                    required=""
+                  />
+                </div>
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="visitors"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    Estimated Duration
+                  </label>
+                  <input
+                    type="number"
+                    id="visitors"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder=""
+                    required=""
+                    disabled
+                  />
+                </div>
+                {/* <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="password"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    Daily Pay
+                  </label>
+                  <input
+                    type="text"
+                    id="pay"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Ksh "
+                    required=""
+                  />
+                </div>
+                <div className="ml-2 mt-2">
+                  <label
+                    htmlFor="password"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    Miscellanous
+                  </label>
+                  <input
+                    type="text"
+                    id="misc"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="any other detail"
+                    required=""
+                  />
+                </div> */}
+                {/* <div className="ml-2 mt-2">
+                  <label
+                    for="password"
+                    className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
+                  >
+                    Miscellanous
+                  </label>
+                  <input
+                    type="text"
+                    id="misc"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="•••••••••"
+                    required=""
+                  />
+                </div> */}
+              </div>
+
+              <div className="flex items-start ml-7 my-6">
+                <div className="flex items-center h-5">
+                  <input
+                    id="remember"
+                    type="checkbox"
+                    value=""
+                    className="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                    required=""
+                  />
+                </div>
+                <label
+                  htmlFor="remember"
+                  className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                >
+                  I have confirmed the details above{" "}
+                  {/* <a
+                    href="#"
+                    className="text-blue-600 hover:underline dark:text-blue-500"
+                  >
+                    terms and conditions
+                  </a> */}
+                </label>
+              </div>
+              <button
+                type="submit"
+                className="text-white bg-blue-700 hover:bg-blue-800 ml-7 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       </Layout>
     </div>

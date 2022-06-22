@@ -292,7 +292,7 @@ export default function projectsetup() {
                   htmlFor="remember"
                   className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-400"
                 >
-                  I have confirmed the details above{" "}
+                  I have confirmed the details above.{" "}
                   {/* <a
                     href="#"
                     classNameName="text-blue-600 hover:underline dark:text-blue-500"
