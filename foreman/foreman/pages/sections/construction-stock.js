@@ -69,13 +69,13 @@ export default function constructionStock() {
                     htmlFor="first_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
-                    First Name
+                    Stock Item
                   </label>
                   <input
                     type="text"
                     id="first_name"
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-slate-900 focus:border-slate-900 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-slate-500 dark:focus:border-slate-500"
-                    placeholder="Anniversary"
+                    placeholder=" Cement"
                     required=""
                   />
                 </div>
@@ -84,13 +84,13 @@ export default function constructionStock() {
                     htmlFor="last_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
-                    Last Name
+                    Source
                   </label>
                   <input
                     type="text"
                     id="last_name"
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="CBD"
+                    placeholder="Build Venture"
                     required=""
                   />
                 </div>
@@ -99,13 +99,13 @@ export default function constructionStock() {
                     htmlFor="company"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
-                    Type
+                    Quantity
                   </label>
                   <input
-                    type="text"
+                    type="number"
                     id="company"
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="casual / contract"
+                    placeholder="50 items"
                     required=""
                   />
                 </div>
@@ -114,13 +114,13 @@ export default function constructionStock() {
                     htmlFor="first_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
-                    ID
+                    Cost Per Item
                   </label>
                   <input
                     type="text"
                     id="first_name"
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="12345678"
+                    placeholder="78"
                     required=""
                   />
                 </div>
@@ -129,13 +129,13 @@ export default function constructionStock() {
                     htmlFor="last_name"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
-                    Contacts
+                    V.A.T
                   </label>
                   <input
-                    type="phone"
-                    id="last_name"
+                    type="number"
+                    id="last"
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="0720 000 000"
+                    placeholder="16%"
                     required=""
                   />
                 </div>
@@ -144,13 +144,13 @@ export default function constructionStock() {
                     htmlFor="company"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
-                    Nature of Work
+                    Total Cost
                   </label>
                   <input
                     type="text"
                     id="company"
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Plumbing / Mason"
+                    placeholder="Items * cost"
                     required=""
                   />
                 </div>
@@ -159,7 +159,7 @@ export default function constructionStock() {
                     htmlFor="phone"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
-                    Start Date
+                    Receiving Date
                   </label>
                   <input
                     type="date"
@@ -175,17 +175,17 @@ export default function constructionStock() {
                     htmlFor="website"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
-                    End Date
+                    Receiving Personnel
                   </label>
                   <input
-                    type="date"
+                    type="text"
                     id="website"
                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="09/12/2022"
+                    placeholder="John Doe"
                     required=""
                   />
                 </div>
-                <div className="ml-2 mt-2">
+                {/* <div className="ml-2 mt-2">
                   <label
                     htmlFor="visitors"
                     className="block mb-1 ml-1 text-sm font-medium text-gray-900 dark:text-gray-300"
@@ -200,7 +200,7 @@ export default function constructionStock() {
                     required=""
                     disabled
                   />
-                </div>
+                </div> */}
                 {/* <div className="ml-2 mt-2">
                   <label
                     htmlFor="password"
