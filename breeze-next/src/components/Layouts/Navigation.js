@@ -2,7 +2,9 @@ import ApplicationLogo from '@/components/ApplicationLogo'
 import Dropdown from '@/components/Dropdown'
 import Link from 'next/link'
 import NavLink from '@/components/NavLink'
-import ResponsiveNavLink, { ResponsiveNavButton } from '@/components/ResponsiveNavLink'
+import ResponsiveNavLink, {
+    ResponsiveNavButton,
+} from '@/components/ResponsiveNavLink'
 import { DropdownButton } from '@/components/DropdownLink'
 import { useAuth } from '@/hooks/auth'
 import { useRouter } from 'next/router'
@@ -37,6 +39,26 @@ const Navigation = ({ user }) => {
                                 active={router.pathname === '/dashboard'}>
                                 Dashboard
                             </NavLink>
+                            <NavLink
+                                href="/operations"
+                                active={router.pathname === '/operations'}>
+                                Operations
+                            </NavLink>
+                            <NavLink
+                                href="/financial"
+                                active={router.pathname === '/financial'}>
+                                Financials
+                            </NavLink>
+                            <NavLink
+                                href="/reports"
+                                active={router.pathname === '/reports'}>
+                                Reports
+                            </NavLink>
+                            <NavLink
+                                href="/settings"
+                                active={router.pathname === '/settings'}>
+                                Settings
+                            </NavLink>
                         </div>
                     </div>
 
@@ -63,7 +85,6 @@ const Navigation = ({ user }) => {
                                     </div>
                                 </button>
                             }>
-
                             {/* Authentication */}
                             <DropdownButton onClick={logout}>
                                 Logout

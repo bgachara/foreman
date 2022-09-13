@@ -36,7 +36,13 @@ const Login = () => {
     const submitForm = async event => {
         event.preventDefault()
 
-        login({ email, password, remember: shouldRemember, setErrors, setStatus })
+        login({
+            email,
+            password,
+            remember: shouldRemember,
+            setErrors,
+            setStatus,
+        })
     }
 
     return (
@@ -44,12 +50,16 @@ const Login = () => {
             <AuthCard
                 logo={
                     <Link href="/">
-                        <a>
+                        <h2 className="fill-current text-4xl font-bold text-gray-500">
+                            {' '}
+                            FOREMAN{' '}
+                        </h2>
+
+                        {/* <a>
                             <ApplicationLogo className="w-20 h-20 fill-current text-gray-500" />
-                        </a>
+                        </a> */}
                     </Link>
                 }>
-
                 {/* Session Status */}
                 <AuthSessionStatus className="mb-4" status={status} />
 
@@ -85,7 +95,10 @@ const Login = () => {
                             autoComplete="current-password"
                         />
 
-                        <InputError messages={errors.password} className="mt-2" />
+                        <InputError
+                            messages={errors.password}
+                            className="mt-2"
+                        />
                     </div>
 
                     {/* Remember Me */}
@@ -98,7 +111,9 @@ const Login = () => {
                                 type="checkbox"
                                 name="remember"
                                 className="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                                onChange={event => setShouldRemember(event.target.checked)}
+                                onChange={event =>
+                                    setShouldRemember(event.target.checked)
+                                }
                             />
 
                             <span className="ml-2 text-sm text-gray-600">

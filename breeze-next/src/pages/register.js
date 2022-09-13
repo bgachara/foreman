@@ -24,7 +24,13 @@ const Register = () => {
     const submitForm = event => {
         event.preventDefault()
 
-        register({ name, email, password, password_confirmation: passwordConfirmation, setErrors })
+        register({
+            name,
+            email,
+            password,
+            password_confirmation: passwordConfirmation,
+            setErrors,
+        })
     }
 
     return (
@@ -32,12 +38,12 @@ const Register = () => {
             <AuthCard
                 logo={
                     <Link href="/">
-                        <a>
-                            <ApplicationLogo className="w-20 h-20 fill-current text-gray-500" />
-                        </a>
+                        <h2 className="fill-current text-4xl font-bold text-gray-500">
+                            {' '}
+                            FOREMAN{' '}
+                        </h2>
                     </Link>
                 }>
-
                 <form onSubmit={submitForm}>
                     {/* Name */}
                     <div>
@@ -86,7 +92,10 @@ const Register = () => {
                             autoComplete="new-password"
                         />
 
-                        <InputError messages={errors.password} className="mt-2" />
+                        <InputError
+                            messages={errors.password}
+                            className="mt-2"
+                        />
                     </div>
 
                     {/* Confirm Password */}
@@ -106,7 +115,10 @@ const Register = () => {
                             required
                         />
 
-                        <InputError messages={errors.password_confirmation} className="mt-2" />
+                        <InputError
+                            messages={errors.password_confirmation}
+                            className="mt-2"
+                        />
                     </div>
 
                     <div className="flex items-center justify-end mt-4">

@@ -28,12 +28,12 @@ const ForgotPassword = () => {
             <AuthCard
                 logo={
                     <Link href="/">
-                        <a>
-                            <ApplicationLogo className="w-20 h-20 fill-current text-gray-500" />
-                        </a>
+                        <h2 className="fill-current text-4xl font-bold text-gray-500">
+                            {' '}
+                            FOREMAN{' '}
+                        </h2>
                     </Link>
                 }>
-
                 <div className="mb-4 text-sm text-gray-600">
                     Forgot your password? No problem. Just let us know your
                     email address and we will email you a password reset link
