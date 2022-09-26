@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/dashboard": "pages/dashboard.js",
+  "/financial": "pages/financial.js",
+  "/reports": "pages/reports.js",
   "/operations": "pages/operations.js",
-  "/financial": "pages/financial.js"
+  "/dashboard": "pages/dashboard.js"
 }
